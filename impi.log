@@ -1,0 +1,43 @@
+UID Light        | 01h | ok  | 23.1 |
+Sys. Health LED  | 02h | ns  | 23.2 | No Reading
+01-Inlet Ambient | 03h | ok  | 64.1 | 14 degrees C
+02-CPU 1         | 04h | ok  | 65.1 | 40 degrees C
+03-CPU 2         | 05h | ok  | 65.2 | 40 degrees C
+04-P1 DIMM 1-4   | 06h | ok  | 32.1 | 19 degrees C
+05-P1 DIMM 5-8   | 07h | ok  | 32.2 | 22 degrees C
+06-P2 DIMM 1-4   | 08h | ok  | 32.3 | 21 degrees C
+07-P2 DIMM 5-8   | 09h | ok  | 32.4 | 19 degrees C
+08-P1 Mem Zone   | 0Ah | ok  | 32.5 | 20 degrees C
+09-P1 Mem Zone   | 0Bh | ok  | 32.6 | 21 degrees C
+10-P2 Mem Zone   | 0Ch | ok  | 32.7 | 20 degrees C
+11-P2 Mem Zone   | 0Dh | ok  | 32.8 | 19 degrees C
+12-HD Max        | 0Eh | ok  |  4.1 | 35 degrees C
+13-Chipset       | 0Fh | ok  | 66.1 | 44 degrees C
+14-Chipset Zone  | 10h | ok  | 66.2 | 21 degrees C
+15-VR P1         | 11h | ok  | 14.1 | 29 degrees C
+16-VR P2         | 12h | ok  | 14.2 | 27 degrees C
+17-VR P1 Mem     | 13h | ok  | 14.3 | 23 degrees C
+18-VR P1 Mem     | 14h | ok  | 14.4 | 25 degrees C
+19-VR P2 Mem     | 15h | ok  | 14.5 | 22 degrees C
+20-VR P2 Mem     | 16h | ok  | 14.6 | 21 degrees C
+21-SuperCap Max  | 17h | ok  | 40.1 | 16 degrees C
+22-HD Controller | 18h | ok  | 11.1 | 40 degrees C
+23-HDcntlr Inlet | 19h | ok  | 11.2 | 40 degrees C
+24-LOM Card      | 1Ah | ns  | 11.3 | Disabled
+25-LOM Card Zn   | 1Bh | ns  | 11.4 | Disabled
+26-Mezz 1        | 1Ch | ok  | 11.5 | 40 degrees C
+27-Mezz 1 Inlet  | 1Dh | ok  | 11.6 | 40 degrees C
+28-Mezz 2        | 1Eh | ns  | 11.7 | Disabled
+29-Mezz 2 Inlet  | 1Fh | ns  | 11.8 | Disabled
+30-System Board  | 20h | ok  | 66.3 | 21 degrees C
+31-System Board  | 21h | ok  | 66.4 | 22 degrees C
+32-Sys Exhaust   | 22h | ok  | 66.5 | 16 degrees C
+33-Sys Exhaust   | 23h | ok  | 66.6 | 20 degrees C
+34-GPU 1         | 24h | ns  | 11.9 | Disabled
+35-GPU 2         | 25h | ns  | 11.10 | Disabled
+Virtual Fan      | 26h | ok  |  7.1 | 47.04 percent
+Power Meter      | 27h | ok  |  7.2 | 92 Watts, Device Enabled
+Enclosure Status | 28h | ok  | 23.3 |
+Memory Status    | 29h | ok  |  7.3 | Presence Detected
+C1 P1I Bay 1     | 2Ah | ok  |  4.1 | Drive Present
+C1 P1I Bay 2     | 2Bh | ok  |  4.2 | Drive Present
