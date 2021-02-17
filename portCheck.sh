@@ -7,4 +7,4 @@ PORT=443
 nc -w 1 -z -v $SERVER $PORT &> /dev/null
 result=$?
 
-echo failedportcheck.count,$SERVER=$PORT $result | /opt/dynatrace/oneagent/agent/tools/dynatrace_ingest -v
+echo failedportcheck.count,$SERVER=$PORT $result | /opt/dynatrace/oneagent/agent/tools/dynatrace_ingest
